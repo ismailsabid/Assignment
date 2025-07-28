@@ -159,3 +159,21 @@ header{
     margin: 20px 0px 20px 4px;
 }
 
+/* get in touch section */
+.get-in-touch{
+    display: flex;
+    align-items: center;
+    gap: 220px;
+}
+.get-in-touch h1{
+    font-size: 94px;
+    text-transform: capitalize;
+    width: 528px;
+}
+.get-in-touch input{
+    padding: 5px 140px 5px 5px;
+
+}
+.get-in-touch textarea{
+    padding: 5px 140px 5px 5px;
+}
