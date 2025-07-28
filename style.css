@@ -18,6 +18,12 @@
     border: 1px solid #4E47FF;
     border-radius: 4px;
     font-size: large;
+    transition-duration: 0.4s;
+}
+.btn:hover{
+    background-color: orangered;
+    border: 1px solid orangered;
+    transform: scale(1.2);
 }
 .cool-font{
     text-align: center;
@@ -28,14 +34,14 @@
 .section-size{
     max-width: 1140px;
    
-    margin: 0 auto;
+    margin:300px auto;
 }
 .section-title{
     font-size: 42px;
     font-weight: bold;
 }
 .description{
-    font-size: 24px;
+    font-size: 18px;
     font-weight: normal;
     color:gray;
 }
@@ -107,5 +113,49 @@ header{
     
     
 }
+/* User's say section*/
+.feedback{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 30px;
+}
+.feedback ul{
+    border: 1px solid cornsilk;
+    padding: 6px;
+    margin: 0;
+    background-color: cornsilk;
+    border-radius: 4px;
+    box-shadow: 2px 2px 4px gray;
 
+    
+}
+.feedback ul li{
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+}
+.avatar{
+    float: left;
+    margin-right: 20px;
+}
+
+.super P:nth-child(1){
+    font-weight: bold;
+
+}
+.user-say p{
+    margin: 20px 0px 20px 4px;
+}
+.user-say h{
+    margin: 4px;
+}
+.super p{
+    margin: 3px;
+    color: gray;
+    font-size: 14px;
+}
+.user-say h6{
+    margin: 20px 0px 20px 4px;
+}
 
